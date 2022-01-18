@@ -68,15 +68,15 @@ public class FindCriticalAndPseudoCriticalEdgesInMST {
         }
     }
 
-    public List<List<Integer>> findCriticalAndPseudoCriticalEdges(int n, int[][] edges) {
-        Edge[] edgeArr = new Edge[edges.length];
-        Vertex[] vertices = new Vertex[n];
-        for (int i = 0; i < n; i++) {
-            vertices[i] = new Vertex(i);
-        }
+    // public List<List<Integer>> findCriticalAndPseudoCriticalEdges(int n, int[][] edges) {
+    //     Edge[] edgeArr = new Edge[edges.length];
+    //     Vertex[] vertices = new Vertex[n];
+    //     for (int i = 0; i < n; i++) {
+    //         vertices[i] = new Vertex(i);
+    //     }
 
-        for (int i = 0; i < edges.length; i++) {
-            vertices[edges[i][0]].connect(vertices[edges[i][1]], edges[i][2]);
-        }
-    }
+    //     for (int i = 0; i < edges.length; i++) {
+    //         vertices[edges[i][0]].connect(vertices[edges[i][1]], edges[i][2]);
+    //     }
+    // }
 }
