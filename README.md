@@ -1,5 +1,6 @@
 # Data structures and algorithms
 
+```
 < Practice makes perfect! >
  -------------------------
         \   ^__^
@@ -7,3 +8,4 @@
             (__)\       )\/\
                 ||----w |
                 ||     ||
+```
