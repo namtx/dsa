@@ -1,6 +1,10 @@
 package dev.namtx.leetcode;
 
 public class FindTheDifference {
+    public static void main(String[] args) {
+        System.out.println(new FindTheDifference().findTheDifference("yy", "yyy"));
+    }
+
     public char findTheDifference(String s, String t) {
         int[] s_count = new int[26];
         int[] t_count = new int[26];
@@ -17,9 +21,5 @@ public class FindTheDifference {
         }
 
         return ' ';
-    }
-
-    public static void main(String[] args) {
-        System.out.println(new FindTheDifference().findTheDifference("yy", "yyy"));
     }
 }
