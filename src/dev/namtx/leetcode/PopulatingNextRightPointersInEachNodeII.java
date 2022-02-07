@@ -4,27 +4,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * https://leetcode.com/problems/populating-next-right-pointers-in-each-node
+ * https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
  */
-public class PopulatingNextRightPointersInEachNode {
-    public static void main(String[] args) {
-        Node root = new Node(1);
-        root.left = new Node(2, new Node(4), new Node(5), null);
-        root.right = new Node(3, new Node(6), new Node(7), null);
-
-        new PopulatingNextRightPointersInEachNode().connect(root);
-        System.out.println(root);
-    }
-
+public class PopulatingNextRightPointersInEachNodeII {
     public Node connect(Node root) {
-        List<Node> nodes = new ArrayList<>();
         if (root == null) {
             return null;
         }
-
+        List<Node> nodes = new ArrayList<>();
         nodes.add(root);
-        while (!nodes.isEmpty()) {
+
+        while(!nodes.isEmpty()) {
             List<Node> nextLevel = new ArrayList<>();
+
             for (int i = 0; i < nodes.size(); i++) {
                 if (i < nodes.size() - 1) {
                     nodes.get(i).next = nodes.get(i + 1);
@@ -36,10 +28,19 @@ public class PopulatingNextRightPointersInEachNode {
                     nextLevel.add(nodes.get(i).right);
                 }
             }
+
             nodes = nextLevel;
         }
 
         return root;
+    }
+
+    public static void main(String[] args) {
+        Node root = new Node(1);
+        root.left = new Node(2, new Node(4), new Node(5), null);
+        root.right = new Node(3, null, new Node(7), null);
+        root = new PopulatingNextRightPointersInEachNodeII().connect(root);
+        System.out.println(root);
     }
 
     static class Node {
