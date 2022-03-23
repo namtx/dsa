@@ -1,11 +1,15 @@
 package dev.namtx.leetcode;
 
+import java.util.ArrayList;
+import java.util.List;
+
 class LongestIncreasingSubsequence {
     public static void main(String[] args) {
         LongestIncreasingSubsequence lis = new LongestIncreasingSubsequence();
         int[] nums = {10, 9, 2, 5, 3, 7, 101, 18};
 
         System.out.println(lis.lengthOfLIS(nums));
+        System.out.println(lis.lengthOfLIS2(nums));
     }
 
     public int lengthOfLIS(int[] nums) {
@@ -29,5 +33,40 @@ class LongestIncreasingSubsequence {
         }
 
         return max;
+    }
+
+    public int lengthOfLIS2(int[] nums) {
+        if (nums.length == 0) {
+            return 0;
+        }
+
+        List<Integer> list = new ArrayList<>();
+
+        for (int num : nums) {
+            if (list.isEmpty() || list.get(list.size() - 1) < num) {
+                list.add(num);
+            } else {
+                int index = lowerBound(list, num);
+                list.set(index, num);
+            }
+        }
+
+        return list.size();
+    }
+
+    private int lowerBound(List<Integer> nums, int target) {
+        int left = 0;
+        int right = nums.size() - 1;
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (nums.get(mid) < target) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+
+        return left;
     }
 }
