@@ -3,27 +3,23 @@ package dev.namtx.leetcode;
 public class LongestRepeatingCharacterReplacement {
     public int characterReplacement(String s, int k) {
         int max = Integer.MIN_VALUE;
-        for (int i = 1; i < s.length(); i++) {
-            int left = i;
+        for (int i = 0; i < s.length(); i++) {
+            if (i > 0 && s.charAt(i) == s.charAt(i-1)) {
+                continue;
+            }
             int right = i;
             int diff = 0;
             while(diff <= k) {
-                while (left >= 0 && s.charAt(left) == s.charAt(i)) {
-                    left--;
+                if (right > s.length() - 1 || s.charAt(right) != s.charAt(i)) {
+                    if (right == s.length()) {
+                        right++;
+                        break;
+                    }
+                    diff++;
                 }
-                diff++;
-                while (right < s.length() && s.charAt(right) == s.charAt(i)) {
-                    right++;
-                }
-                diff++;
-            }
-            while(left >= 0 && s.charAt(left) == s.charAt(i)) {
-                left--;
-            }
-            while(right < s.length() && s.charAt(right) == s.charAt(i)) {
                 right++;
             }
-            max = Math.max(right-left, max);
+            max = Math.max(right- i -1, max);
         }
 
 
@@ -31,7 +27,9 @@ public class LongestRepeatingCharacterReplacement {
     }
 
     public static void main(String[] args) {
-        System.out.println(new LongestRepeatingCharacterReplacement().characterReplacement("AABABBA", 1));
+//        System.out.println(new LongestRepeatingCharacterReplacement().characterReplacement("AABABBA", 2));
+//        System.out.println(new LongestRepeatingCharacterReplacement().characterReplacement("ABAB", 1));
+        System.out.println(new LongestRepeatingCharacterReplacement().characterReplacement("ABBB", 2));
     }
 }
 
