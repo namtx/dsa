@@ -1,8 +1,8 @@
 package dev.namtx.adventofcode2022.day1;
 
-import java.io.BufferedReader;
+import dev.namtx.adventofcode2022.utils.IterableFileReader;
+
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.Comparator;
 import java.util.PriorityQueue;
@@ -13,21 +13,18 @@ public class Solution {
     static class Part1 {
         public static void main(String[] args) {
             try {
-                BufferedReader reader = new BufferedReader(new FileReader(FILE_PATH));
-                String currentLine = reader.readLine();
-                int max = 0;
-                int currentCalories = 0;
-                while (currentLine != null) {
-                    if (currentLine.length() == 0) {
-                        max = Math.max(max, currentCalories);
-                        currentCalories = 0;
+                IterableFileReader fileReader = new IterableFileReader(FILE_PATH);
+                final int[] max = {0};
+                final int[] currentCalories = {0};
+                fileReader.forEach(s -> {
+                    if (s.length() == 0) {
+                        max[0] = Math.max(max[0], currentCalories[0]);
+                        currentCalories[0] = 0;
                     } else {
-                        currentCalories += Integer.parseInt(currentLine);
+                        currentCalories[0] += Integer.parseInt(s);
                     }
-                    currentLine = reader.readLine();
-                }
-                reader.close();
-                System.out.println(max);
+                });
+                System.out.println(max[0]);
             } catch (FileNotFoundException e) {
                 System.out.println(e.getMessage());
             } catch (IOException e) {
@@ -39,20 +36,17 @@ public class Solution {
     static class Part2 {
         public static void main(String[] args) {
             try {
-                BufferedReader reader = new BufferedReader(new FileReader(FILE_PATH));
-                String currentLine = reader.readLine();
+                IterableFileReader fileReader = new IterableFileReader(FILE_PATH);
                 PriorityQueue<Integer> queue = new PriorityQueue<>(Comparator.reverseOrder());
-                int currentCalories = 0;
-                while (currentLine != null) {
-                    if (currentLine.length() == 0) {
-                        queue.offer(currentCalories);
-                        currentCalories = 0;
+                final int[] currentCalories = {0};
+                fileReader.forEach(s -> {
+                    if (s.length() == 0) {
+                        queue.offer(currentCalories[0]);
+                        currentCalories[0] = 0;
                     } else {
-                        currentCalories += Integer.parseInt(currentLine);
+                        currentCalories[0] += Integer.parseInt(s);
                     }
-                    currentLine = reader.readLine();
-                }
-                reader.close();
+                });
                 int ans = 0;
                 for (int i = 0; i < 3; i++) {
                     ans += queue.poll();
