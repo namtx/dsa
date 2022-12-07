@@ -3,14 +3,17 @@ package dev.namtx.adventofcode2022.day7;
 import dev.namtx.adventofcode2022.utils.IterableFileReader;
 
 import java.io.IOException;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Stack;
 
-public class Solution {
+public abstract class Solution {
     private static final String FILE_PATH = "./src/dev/namtx/adventofcode2022/day7/input.txt";
-    static long part1Ans = 0;
-    private static Map<String, Directory> directoriesMap = new HashMap<>();
+    final Map<String, Directory> directoriesMap = new HashMap<>();
 
-    public static long getDirectorySize(Directory directory) {
+    public abstract void solve() throws IOException;
+
+    long getDirectorySize(Directory directory) {
         if (directory.size != -1) return directory.size;
         long ans = 0;
         for (File file : directory.files) {
@@ -19,15 +22,11 @@ public class Solution {
         for (Directory sub : directory.subDirectories) {
             ans += getDirectorySize(sub);
         }
-        if (ans < 100000) {
-            System.out.println(directory.path);
-            part1Ans += ans;
-        }
         directory.size = ans;
         return ans;
     }
 
-    public static void buildDirectoryTree() throws IOException {
+    public void buildDirectoryTree() throws IOException {
         IterableFileReader fileReader = new IterableFileReader(FILE_PATH);
         // keep track the current path
         Stack<Directory> stack = new Stack<>();
@@ -74,52 +73,5 @@ public class Solution {
                 }
             }
         });
-    }
-
-    static class Directory {
-        List<Directory> subDirectories;
-        List<File> files;
-        long size;
-        String path;
-
-        public Directory(String path) {
-            this.size = -1;
-            this.subDirectories = new ArrayList<>();
-            this.files = new ArrayList<>();
-            this.path = path;
-        }
-    }
-
-    static class File {
-        long size;
-        String name;
-
-        public File(long size, String name) {
-            this.size = size;
-            this.name = name;
-        }
-    }
-
-    static class Part1 {
-        public static void main(String[] args) throws IOException {
-            buildDirectoryTree();
-            getDirectorySize(directoriesMap.get("/"));
-            System.out.println(part1Ans);
-        }
-    }
-
-    static class Part2 {
-        public static void main(String[] args) throws IOException {
-            buildDirectoryTree();
-            getDirectorySize(directoriesMap.get("/"));
-            long currentUnusedSpace = 70_000_000 - directoriesMap.get("/").size;
-            long ans = Long.MAX_VALUE;
-            for (Directory d : directoriesMap.values()) {
-                if (d.size + currentUnusedSpace >= 30_000_000) {
-                    ans = Math.min(d.size, ans);
-                }
-            }
-            System.out.println(ans);
-        }
     }
 }
