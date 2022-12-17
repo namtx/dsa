@@ -8,7 +8,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class Solution {
-    private static final String FILE_PATH = "./src/dev/namtx/adventofcode2022/day1/sample.txt";
+    private static final String FILE_PATH = "./src/dev/namtx/adventofcode2022/day1/input.txt";
 
     static class Part1 {
         public static void main(String[] args) {
