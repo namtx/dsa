@@ -1,3 +1,4 @@
+package dev.namtx.leetcode;
 /*
  * @lc app=leetcode id=110 lang=java
  *
@@ -5,6 +6,9 @@
  */
 
 // @lc code=start
+
+import dev.namtx.ds.TreeNode;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -20,7 +24,7 @@
  *     }
  * }
  */
-class Solution {
+class BalancedBinaryTree {
     public boolean isBalanced(TreeNode root) {
         if (root == null) return true;
 
