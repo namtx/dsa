@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/CountAndSay.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/CountAndSay.md" />
+              <option name="frontendQuestionId" value="leetcode.com38" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/CountAndSay.java" />
+              <option name="titleSlug" value="count-and-say" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/[390]Elimination Game.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/[390]Elimination Game.md" />
+              <option name="frontendQuestionId" value="leetcode.com390" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/[390]Elimination Game.java" />
+              <option name="titleSlug" value="elimination-game" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/leetcode/editor/en/[390]Elimination Game.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/[390]Elimination Game.md" />
+              <option name="frontendQuestionId" value="leetcode.com390" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/[390]Elimination Game.java" />
+              <option name="titleSlug" value="elimination-game" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/leetcode/editor/en/[398]Random Pick Index.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/leetcode/editor/en/doc/content/[398]Random Pick Index.md" />
+              <option name="frontendQuestionId" value="leetcode.com398" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/leetcode/editor/en/[398]Random Pick Index.java" />
+              <option name="titleSlug" value="random-pick-index" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
