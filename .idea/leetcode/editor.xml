@@ -124,6 +124,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/NumberOfRecentCalls.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/NumberOfRecentCalls.md" />
+              <option name="frontendQuestionId" value="leetcode.com933" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/NumberOfRecentCalls.java" />
+              <option name="titleSlug" value="number-of-recent-calls" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/PalindromeNumber.java">
           <value>
             <LeetcodeEditor>
