@@ -47,6 +47,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/DesignParkingSystem.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/DesignParkingSystem.md" />
+              <option name="frontendQuestionId" value="leetcode.com1603" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/DesignParkingSystem.java" />
+              <option name="titleSlug" value="design-parking-system" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/DiagonalTraverse.java">
           <value>
             <LeetcodeEditor>
