@@ -47,6 +47,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/DesignAStackWithIncrementOperation.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/DesignAStackWithIncrementOperation.md" />
+              <option name="frontendQuestionId" value="leetcode.com1381" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/DesignAStackWithIncrementOperation.java" />
+              <option name="titleSlug" value="design-a-stack-with-increment-operation" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/DesignAnOrderedStream.java">
           <value>
             <LeetcodeEditor>
