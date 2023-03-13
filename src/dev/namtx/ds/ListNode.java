@@ -13,6 +13,17 @@ public class ListNode {
         this.next = next;
     }
 
+    public static ListNode deserialize(int[] nodes) {
+        if (nodes.length == 0) return null;
+        ListNode head = new ListNode(nodes[0]);
+        ListNode current = head;
+        for (int i = 1; i < nodes.length; i++) {
+            current.next = new ListNode(nodes[i]);
+            current = current.next;
+        }
+        return head;
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
