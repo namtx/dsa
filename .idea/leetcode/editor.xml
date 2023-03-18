@@ -91,6 +91,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/DesignBrowserHistory.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/DesignBrowserHistory.md" />
+              <option name="frontendQuestionId" value="leetcode.com1472" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/DesignBrowserHistory.java" />
+              <option name="titleSlug" value="design-browser-history" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/DesignParkingSystem.java">
           <value>
             <LeetcodeEditor>
