@@ -212,6 +212,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/KidsWithTheGreatestNumberOfCandies.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/KidsWithTheGreatestNumberOfCandies.md" />
+              <option name="frontendQuestionId" value="leetcode.com1431" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/KidsWithTheGreatestNumberOfCandies.java" />
+              <option name="titleSlug" value="kids-with-the-greatest-number-of-candies" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/KthMissingPositiveNumber.java">
           <value>
             <LeetcodeEditor>
@@ -297,6 +308,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/NumberOfClosedIslands.java" />
               <option name="titleSlug" value="number-of-closed-islands" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/NumberOfEnclaves.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/NumberOfEnclaves.md" />
+              <option name="frontendQuestionId" value="leetcode.com1020" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/NumberOfEnclaves.java" />
+              <option name="titleSlug" value="number-of-enclaves" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -440,6 +462,28 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/SymmetricTree.java" />
               <option name="titleSlug" value="symmetric-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/ValidParentheses.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/ValidParentheses.md" />
+              <option name="frontendQuestionId" value="leetcode.com20" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/ValidParentheses.java" />
+              <option name="titleSlug" value="valid-parentheses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/ValidateStackSequences.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/ValidateStackSequences.md" />
+              <option name="frontendQuestionId" value="leetcode.com946" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/ValidateStackSequences.java" />
+              <option name="titleSlug" value="validate-stack-sequences" />
             </LeetcodeEditor>
           </value>
         </entry>
