@@ -14,6 +14,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/AsteroidCollision.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/AsteroidCollision.md" />
+              <option name="frontendQuestionId" value="leetcode.com735" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/AsteroidCollision.java" />
+              <option name="titleSlug" value="asteroid-collision" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/BestTimeToBuyAndSellStock.java">
           <value>
             <LeetcodeEditor>
@@ -113,6 +124,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/DecodeTheMessage.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/DecodeTheMessage.md" />
+              <option name="frontendQuestionId" value="leetcode.com2325" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/DecodeTheMessage.java" />
+              <option name="titleSlug" value="decode-the-message" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/DesignAStackWithIncrementOperation.java">
           <value>
             <LeetcodeEditor>
@@ -190,6 +212,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/FindTheDivisibilityArrayOfAString.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/FindTheDivisibilityArrayOfAString.md" />
+              <option name="frontendQuestionId" value="leetcode.com2575" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/FindTheDivisibilityArrayOfAString.java" />
+              <option name="titleSlug" value="find-the-divisibility-array-of-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/FirstMissingPositive.java">
           <value>
             <LeetcodeEditor>
@@ -198,6 +231,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/FirstMissingPositive.java" />
               <option name="titleSlug" value="first-missing-positive" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/GroupThePeopleGivenTheGroupSizeTheyBelongTo.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/GroupThePeopleGivenTheGroupSizeTheyBelongTo.md" />
+              <option name="frontendQuestionId" value="leetcode.com1282" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/GroupThePeopleGivenTheGroupSizeTheyBelongTo.java" />
+              <option name="titleSlug" value="group-the-people-given-the-group-size-they-belong-to" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -231,6 +275,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/KidsWithTheGreatestNumberOfCandies.java" />
               <option name="titleSlug" value="kids-with-the-greatest-number-of-candies" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/KnightProbabilityInChessboard.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/KnightProbabilityInChessboard.md" />
+              <option name="frontendQuestionId" value="leetcode.com688" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/KnightProbabilityInChessboard.java" />
+              <option name="titleSlug" value="knight-probability-in-chessboard" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -278,6 +333,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/MaximumLengthOfPairChain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/MaximumLengthOfPairChain.md" />
+              <option name="frontendQuestionId" value="leetcode.com646" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/MaximumLengthOfPairChain.java" />
+              <option name="titleSlug" value="maximum-length-of-pair-chain" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/MaximumNumberOfPointsWithCost.java">
           <value>
             <LeetcodeEditor>
@@ -322,6 +388,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/MinimizeTheMaximumDifferenceOfPairs.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/MinimizeTheMaximumDifferenceOfPairs.md" />
+              <option name="frontendQuestionId" value="leetcode.com2616" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/MinimizeTheMaximumDifferenceOfPairs.java" />
+              <option name="titleSlug" value="minimize-the-maximum-difference-of-pairs" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/MinimumNumberOfTapsToOpenToWaterAGarden.java">
           <value>
             <LeetcodeEditor>
@@ -363,6 +440,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/NumberOfEnclaves.java" />
               <option name="titleSlug" value="number-of-enclaves" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/NumberOfLongestIncreasingSubsequence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/NumberOfLongestIncreasingSubsequence.md" />
+              <option name="frontendQuestionId" value="leetcode.com673" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/NumberOfLongestIncreasingSubsequence.java" />
+              <option name="titleSlug" value="number-of-longest-increasing-subsequence" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -462,6 +550,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/SingleElementInASortedArray.java" />
               <option name="titleSlug" value="single-element-in-a-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/SortList.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/SortList.md" />
+              <option name="frontendQuestionId" value="leetcode.com148" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/SortList.java" />
+              <option name="titleSlug" value="sort-list" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -572,6 +671,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/leetcode/editor/en/[398]Random Pick Index.java" />
               <option name="titleSlug" value="random-pick-index" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/pb/5r3qnqx504b2g4ll5skplt6m0000gn/T/leetcode/editor/en/[673]Number of Longest Increasing Subsequence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/NumberOfLongestIncreasingSubsequence.md" />
+              <option name="frontendQuestionId" value="leetcode.com673" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/NumberOfLongestIncreasingSubsequence.java" />
+              <option name="titleSlug" value="number-of-longest-increasing-subsequence" />
             </LeetcodeEditor>
           </value>
         </entry>
