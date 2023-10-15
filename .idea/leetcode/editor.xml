@@ -135,6 +135,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/DecodedStringAtIndex.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/DecodedStringAtIndex.md" />
+              <option name="frontendQuestionId" value="leetcode.com880" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/DecodedStringAtIndex.java" />
+              <option name="titleSlug" value="decoded-string-at-index" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/DesignAStackWithIncrementOperation.java">
           <value>
             <LeetcodeEditor>
@@ -256,6 +267,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/IntegerBreak.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/IntegerBreak.md" />
+              <option name="frontendQuestionId" value="leetcode.com343" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/IntegerBreak.java" />
+              <option name="titleSlug" value="integer-break" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/Ipo.java">
           <value>
             <LeetcodeEditor>
@@ -352,6 +374,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/MaximumNumberOfPointsWithCost.java" />
               <option name="titleSlug" value="maximum-number-of-points-with-cost" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/MaximumValueOfAnOrderedTripletI.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/MaximumValueOfAnOrderedTripletI.md" />
+              <option name="frontendQuestionId" value="leetcode.com2873" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/MaximumValueOfAnOrderedTripletI.java" />
+              <option name="titleSlug" value="maximum-value-of-an-ordered-triplet-i" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -531,6 +564,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/ReconstructItinerary.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/ReconstructItinerary.md" />
+              <option name="frontendQuestionId" value="leetcode.com332" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/ReconstructItinerary.java" />
+              <option name="titleSlug" value="reconstruct-itinerary" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/ReducingDishes.java">
           <value>
             <LeetcodeEditor>
@@ -539,6 +583,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/ReducingDishes.java" />
               <option name="titleSlug" value="reducing-dishes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/RemoveColoredPiecesIfBothNeighborsAreTheSameColor.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/RemoveColoredPiecesIfBothNeighborsAreTheSameColor.md" />
+              <option name="frontendQuestionId" value="leetcode.com2038" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/RemoveColoredPiecesIfBothNeighborsAreTheSameColor.java" />
+              <option name="titleSlug" value="remove-colored-pieces-if-both-neighbors-are-the-same-color" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -553,6 +608,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/SatisfiabilityOfEqualityEquations.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/SatisfiabilityOfEqualityEquations.md" />
+              <option name="frontendQuestionId" value="leetcode.com990" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/SatisfiabilityOfEqualityEquations.java" />
+              <option name="titleSlug" value="satisfiability-of-equality-equations" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/ScrambleString.java">
           <value>
             <LeetcodeEditor>
@@ -561,6 +627,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/ScrambleString.java" />
               <option name="titleSlug" value="scramble-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/ShortestPathVisitingAllNodes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/ShortestPathVisitingAllNodes.md" />
+              <option name="frontendQuestionId" value="leetcode.com847" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/ShortestPathVisitingAllNodes.java" />
+              <option name="titleSlug" value="shortest-path-visiting-all-nodes" />
             </LeetcodeEditor>
           </value>
         </entry>
