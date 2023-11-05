@@ -1,0 +1,41 @@
+class Solution {
+    public int getWinner(int[] arr, int k) {
+        List<Integer> l = new ArrayList<>();
+        int lastWinner = 0;
+        for (int num: arr) {
+            l.add(num);
+        }
+        Map<Integer, Integer> wins = new HashMap<>();
+        while(true) {
+            int first = l.get(0);
+            int second = l.get(1);
+            int winner = Math.max(first, second);
+            if (lastWinner == winner) {
+                wins.put(winner, wins.getOrDefault(winner, 0)+1);
+                if (wins.get(winner) == k) {
+                    return winner;
+                }
+            } else {
+                wins.put(winner, 1);
+            }
+            if (winner == first) {
+                l.remove(1);
+                l.add(second);
+            } else {
+                l.remove(0);
+                l.add(first);
+            }
+            lastWinner = winner;
+        }
+    }
+}
+
+//runtime:N/A
+//memory:N/A
+//total_testcases:
+//total_correct:
+//input_formatted:
+//expected_output:
+//code_output:
+//runtime_error:null
+//last_testcase:[1,11,22,33,44,55,66,77,88,99] 1000000000

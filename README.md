@@ -10,6 +10,9 @@
                 ||     ||
 ```
 
+### Leetcode
+[![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/api?username=namtx)](https://github.com/namtx/github-readme)
+
 ### Advent of Code 2022 🎄
 
 |Mon|Tue|Wed|Thu|Fri|Sat|Sun|
