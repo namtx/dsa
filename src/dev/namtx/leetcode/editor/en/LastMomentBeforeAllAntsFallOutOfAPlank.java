@@ -8,7 +8,9 @@ public class LastMomentBeforeAllAntsFallOutOfAPlank {
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int getLastMoment(int n, int[] left, int[] right) {
-        
+        // TODO: Finish
+
+        return -1;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
