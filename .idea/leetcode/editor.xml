@@ -212,6 +212,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/DetermineIfACellIsReachableAtAGivenTime.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/DetermineIfACellIsReachableAtAGivenTime.md" />
+              <option name="frontendQuestionId" value="leetcode.com2849" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/DetermineIfACellIsReachableAtAGivenTime.java" />
+              <option name="titleSlug" value="determine-if-a-cell-is-reachable-at-a-given-time" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/DiagonalTraverse.java">
           <value>
             <LeetcodeEditor>
@@ -231,6 +242,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/EditDistance.java" />
               <option name="titleSlug" value="edit-distance" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/EliminateMaximumNumberOfMonsters.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/EliminateMaximumNumberOfMonsters.md" />
+              <option name="frontendQuestionId" value="leetcode.com1921" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/EliminateMaximumNumberOfMonsters.java" />
+              <option name="titleSlug" value="eliminate-maximum-number-of-monsters" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -572,6 +594,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/NumberOfRecentCalls.java" />
               <option name="titleSlug" value="number-of-recent-calls" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/NumberOfSubstringsWithFixedRatio.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/doc/content/NumberOfSubstringsWithFixedRatio.md" />
+              <option name="frontendQuestionId" value="leetcode.com2489" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/dev/namtx/leetcode/editor/en/NumberOfSubstringsWithFixedRatio.java" />
+              <option name="titleSlug" value="number-of-substrings-with-fixed-ratio" />
             </LeetcodeEditor>
           </value>
         </entry>
