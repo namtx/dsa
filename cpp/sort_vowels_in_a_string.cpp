@@ -1,23 +1,24 @@
 #include <iostream>
-#include <queue>
 
 using namespace std;
 
 class Solution {
 public:
   string sortVowels(string s) {
-    priority_queue<char> pq;
-
+    int freq[128] = {0};
     for (int i = 0; i < s.length(); i++) {
       if (isVowel(s[i])) {
-        pq.push(-s[i]);
+        freq[s[i]]++;
       }
     }
 
+    int idx = 0;
     for (int i = 0; i < s.length(); i++) {
       if (isVowel(s[i])) {
-        s[i] = -pq.top();
-        pq.pop();
+        while (freq[idx] == 0)
+          idx++;
+        s[i] = (char)idx;
+        freq[idx]--;
       }
     }
     return s;
