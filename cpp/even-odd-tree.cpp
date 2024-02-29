@@ -27,33 +27,28 @@ public:
   bool isEvenOddTree(TreeNode *root) {
     int minEven = 0;
     int maxOdd = INT_MAX;
-
-    int level = 0;
     queue<pair<TreeNode *, int>> q;
+
     q.push({root, 0});
+
     while (!q.empty()) {
       auto p = q.front();
       q.pop();
       if (p.first == nullptr)
         continue;
-      if (p.second % 2 == p.first->val % 2) {
-        return false;
-      }
       if (p.second % 2 == 0) {
         maxOdd = INT_MAX;
-        if (p.first->val <= minEven)
+        if (p.first->val <= minEven || p.first->val % 2 == 0)
           return false;
         minEven = p.first->val;
-        q.push({p.first->left, p.second + 1});
-        q.push({p.first->right, p.second + 1});
       } else {
         minEven = 0;
-        if (p.first->val >= maxOdd)
+        if (p.first->val >= maxOdd || p.first->val % 2 != 0)
           return false;
         maxOdd = p.first->val;
-        q.push({p.first->left, p.second + 1});
-        q.push({p.first->right, p.second + 1});
       }
+      q.push({p.first->left, p.second + 1});
+      q.push({p.first->right, p.second + 1});
     }
 
     return true;
