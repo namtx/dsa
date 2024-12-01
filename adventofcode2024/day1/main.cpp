@@ -2,22 +2,9 @@
 #include <fstream>
 #include <vector>
 #include <unordered_map>
+#include "../helper.h"
+
 using namespace std;
-
-
-vector<string> split(string s, string delimiter) {
-    vector<string> result;
-    size_t pos = 0;
-    string token;
-
-    while ((pos = s.find(delimiter)) != string::npos) {
-        token = s.substr(0, pos);
-        result.push_back(token);
-        s.erase(0, pos + delimiter.length());
-    }
-    result.push_back(s);
-    return result;
-}
 
 int part1(vector< vector<int> > input) {
     sort(input[0].begin(), input[0].end());
