@@ -18,4 +18,14 @@ vector<string> split(string s, string delimiter) {
   return res;
 }   
 
+vector<string> read_lines(string filename) {
+    ifstream file(filename);
+    string line;
+    vector<string> lines;
+    while (getline(file, line)) {
+        lines.push_back(line);
+    }
+    return lines;
+}
+
 #endif
